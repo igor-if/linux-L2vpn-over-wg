@@ -124,7 +124,7 @@ root@vm2client:/home/user# ip link set l2tpeth0 up
 ip link add link ens37 name vlan10 type vlan id 10
 ip link set vlan10 up
 ```
-Добавляем bridge и добавляем slave интерфейсы:
+Добавляем bridge и добавляем slave интерфейсы в bridge:
 
 ```
 ip link add br0 type bridge
@@ -162,7 +162,7 @@ rtt min/avg/max/mdev = 0.414/0.752/1.091/0.338 ms
 Проверяем arp таблицу:
 
 ```
-root@server:/home/user# ipnei ip nei
+root@server:/home/user# ip nei
 192.168.1.43 dev ens33 lladdr e8:9e:b4:51:aa:aa REACHABLE
 192.168.1.209 dev ens33 lladdr 00:0c:29:28:2d:c5 REACHABLE
 **172.16.0.2 dev l2tpeth0 lladdr 0e:27:3f:c6:c3:2a REACHABLE**

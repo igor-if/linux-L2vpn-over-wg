@@ -196,6 +196,6 @@ TCP window size: 85.5 KByte (default)
 ```
 
 ![iperf] (https://drive.google.com/file/d/1hpx0hyNIn5sC5KC6qAbeinrb7ELfz05L/view?usp=sharing "iperf")
-
+![interfaces] (https://drive.google.com/file/d/1m8zY38fyF3vK85WFOmzxOwKDJohxMw25/view?usp=sharing "interfaces")
 
         
